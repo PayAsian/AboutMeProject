@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		198C18311DA5794A00DFA386 /* CS2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198C18301DA5794A00DFA386 /* CS2.swift */; };
 		19BB120A1DA2E5D000418E16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB12091DA2E5D000418E16 /* AppDelegate.swift */; };
 		19BB120C1DA2E5D000418E16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB120B1DA2E5D000418E16 /* ViewController.swift */; };
 		19BB120F1DA2E5D000418E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BB120D1DA2E5D000418E16 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		198C18301DA5794A00DFA386 /* CS2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CS2.swift; sourceTree = "<group>"; };
 		19BB12061DA2E5D000418E16 /* AboutMeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BB12091DA2E5D000418E16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19BB120B1DA2E5D000418E16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				19BB12091DA2E5D000418E16 /* AppDelegate.swift */,
 				19BB120B1DA2E5D000418E16 /* ViewController.swift */,
 				19BB120D1DA2E5D000418E16 /* Main.storyboard */,
+				198C18301DA5794A00DFA386 /* CS2.swift */,
 				19BB12101DA2E5D000418E16 /* Assets.xcassets */,
 				19BB12121DA2E5D000418E16 /* LaunchScreen.storyboard */,
 				19BB12151DA2E5D000418E16 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				19BB120C1DA2E5D000418E16 /* ViewController.swift in Sources */,
 				19BB120A1DA2E5D000418E16 /* AppDelegate.swift in Sources */,
+				198C18311DA5794A00DFA386 /* CS2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				19BB121A1DA2E5D000418E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

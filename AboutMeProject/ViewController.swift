@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func toCS2(sender: UIButton)
+    {
+        performSegueWithIdentifier("toCS2", sender: sender)
+    }
+        
+    
+    
+    
 }
-
