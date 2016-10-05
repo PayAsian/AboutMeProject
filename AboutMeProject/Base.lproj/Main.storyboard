@@ -49,12 +49,28 @@
                     <view key="view" contentMode="scaleToFill" id="IqZ-Ni-Zp9">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFf-IQ-sVl">
+                                <rect key="frame" x="50" y="28" width="46" height="30"/>
+                                <state key="normal" title="Left"/>
+                                <connections>
+                                    <segue destination="feg-9E-EU1" kind="show" id="lag-th-wJT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4f-w9-rRs">
+                                <rect key="frame" x="511" y="28" width="46" height="30"/>
+                                <state key="normal" title="Right"/>
+                                <connections>
+                                    <segue destination="xo1-7H-GXL" kind="show" id="Xo8-gp-h7y"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0CI-hd-RZi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="345" y="1019"/>
+            <point key="canvasLocation" x="1689" y="401"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qjm-9a-UDj">
@@ -67,12 +83,28 @@
                     <view key="view" contentMode="scaleToFill" id="GeN-ba-WlO">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhW-br-r4u">
+                                <rect key="frame" x="40" y="20" width="46" height="30"/>
+                                <state key="normal" title="Left"/>
+                                <connections>
+                                    <segue destination="xo1-7H-GXL" kind="show" id="Uph-6U-wNs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEg-nf-rlf">
+                                <rect key="frame" x="494" y="28" width="46" height="30"/>
+                                <state key="normal" title="Right"/>
+                                <connections>
+                                    <segue destination="pgf-9F-yJc" kind="show" id="23y-J4-Q4P"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pDr-ra-D5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="345" y="1695"/>
+            <point key="canvasLocation" x="3122" y="401"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DiE-og-qnI">
@@ -85,12 +117,28 @@
                     <view key="view" contentMode="scaleToFill" id="E0O-cC-OOV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ra-eS-cD0">
+                                <rect key="frame" x="36" y="20" width="46" height="30"/>
+                                <state key="normal" title="Left"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="7oc-vs-egQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55E-Bm-FY7">
+                                <rect key="frame" x="489" y="20" width="46" height="30"/>
+                                <state key="normal" title="Right"/>
+                                <connections>
+                                    <segue destination="45n-zo-lYq" kind="show" id="Y4K-fo-teY"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jmf-du-pIv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="998" y="333"/>
+            <point key="canvasLocation" x="998" y="418"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hSt-d1-Cvy">
@@ -103,12 +151,28 @@
                     <view key="view" contentMode="scaleToFill" id="ha7-NY-S4g">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqY-IO-PtW">
+                                <rect key="frame" x="513" y="20" width="46" height="30"/>
+                                <state key="normal" title="Right"/>
+                                <connections>
+                                    <segue destination="DL9-Lg-RX7" kind="show" id="hEZ-8J-3j4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4x-DI-5aM">
+                                <rect key="frame" x="34" y="20" width="46" height="30"/>
+                                <state key="normal" title="Left"/>
+                                <connections>
+                                    <segue destination="45n-zo-lYq" kind="show" id="iaz-Bg-vWQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKt-8g-KAw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="998" y="1019"/>
+            <point key="canvasLocation" x="2389" y="401"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vgO-l2-GEJ">
@@ -121,12 +185,36 @@
                     <view key="view" contentMode="scaleToFill" id="f2I-Yo-pHD">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.25098040699958801" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BT3-hA-sGI">
+                                <rect key="frame" x="39" y="28" width="46" height="30"/>
+                                <state key="normal" title="Left"/>
+                                <connections>
+                                    <segue destination="DL9-Lg-RX7" kind="show" id="Ofm-A6-4P2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sid-ZE-UCD">
+                                <rect key="frame" x="525" y="28" width="46" height="30"/>
+                                <state key="normal" title="Right"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="XKU-go-3lC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000596046448" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ja0-Mu-irW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="998" y="1695"/>
+            <point key="canvasLocation" x="3869" y="401"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="XKU-go-3lC"/>
+        <segue reference="23y-J4-Q4P"/>
+        <segue reference="Ofm-A6-4P2"/>
+        <segue reference="Uph-6U-wNs"/>
+        <segue reference="iaz-Bg-vWQ"/>
+        <segue reference="lag-th-wJT"/>
+    </inferredMetricsTieBreakers>
 </document>
