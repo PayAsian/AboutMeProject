@@ -22,7 +22,7 @@
                                 <state key="normal" title="Left"/>
                                 <connections>
                                     <action selector="ToScreen6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jAs-bV-fch"/>
-                                    <action selector="toCS2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="huy-8P-vov"/>
+                                    <action selector="toCS2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xTU-3J-jba"/>
                                     <action selector="toCS6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sQi-0K-war"/>
                                     <segue destination="pgf-9F-yJc" kind="show" id="zOk-fj-IiD"/>
                                 </connections>
@@ -31,13 +31,16 @@
                                 <rect key="frame" x="462" y="28" width="46" height="30"/>
                                 <state key="normal" title="Right"/>
                                 <connections>
-                                    <action selector="toCS2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="24H-JU-4QU"/>
-                                    <segue destination="45n-zo-lYq" kind="show" id="Y90-1P-Feu"/>
+                                    <action selector="toCS2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LIk-9o-Bqb"/>
+                                    <segue destination="45n-zo-lYq" kind="show" identifier="toCS2" id="Y90-1P-Feu"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="CS1Rbutton" destination="KLs-7D-jfl" id="35D-wC-26V"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
